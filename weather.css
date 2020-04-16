@@ -1,0 +1,36 @@
+body {
+  background-color: #1959c1;
+  color: #ccdaf2;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* https://coolors.co/ccdaf2-1959c1-82b1ff-043077-0d2751 */
+
+.container {
+  text-align: center;
+}
+
+.weatherbox {
+  display: inline-block;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-top: 75px;
+  border: 3px solid #82b1ff;
+  border-radius: 10px;
+  background-color: #17438a;
+}
+
+#footer {
+  margin-top: 68px;
+  font-size: 8px;
+}
+
+#city {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+#wind {
+  padding-bottom: 30px;
+}

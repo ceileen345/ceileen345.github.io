@@ -1,0 +1,118 @@
+/* for mobile phones */
+
+/* @media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  body {
+    background-color: #266391;
+    color: #d2e7f7;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: Dancing Script, cursive;
+    font-size: 25px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: -40px;
+  }
+
+  .jumbotron{
+    font-family: Dancing Script, cursive;
+    background-image: url(images/oceanwave.jpg);
+    background-size: 100% auto;
+    background-repeat: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .mepic {
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    max-height: 250px;
+    border-radius: 50%;
+    padding-top: 15px;
+  }
+
+
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    background-color: #144D78;
+  }
+
+  .navbar a {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #d2e7f7;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+
+.navbar a:hover {
+  background-color: #07395F;
+  color: white;
+}
+
+.middlecontent {
+  width: 100%;
+  height: 250px;
+}
+
+.skills {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.portrait {
+  float: left;
+  width: 33.3%;
+}
+
+.familiar {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  display: block;
+  background-color: #3E749D;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #d2e7f7;
+}
+
+.contact a:hover {
+  color: white;
+}

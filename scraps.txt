@@ -1,0 +1,116 @@
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills li {
+  margin-left: -40px;
+}
+
+.familiar li {
+  margin-left: -40px;
+}
+
+.contact li {
+  margin-left: -40px;
+}
+
+.jumbotron {
+  background-image: url(images/oceanwavesmall.jpg);
+  background-size: cover;
+  margin-left: -5%;
+  margin-top: -10px;
+  margin-right: -5%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+
+.navbar a {
+float: left;
+padding: 12px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+text-align: center; /* If you want the text to be centered */
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
+  background-color: #3E749D;
+  margin-left: -5%;
+  margin-right: -5%;
+  font-size: 18px;
+}
+
+.portrait {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.portrait img {
+  border-radius: 10px;
+  max-height: 250px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.familiar {
+
+  text-align: center;
+}
+
+.contact {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #d2e7f7;
+}
+
+.contact a:hover{
+  color: white;
+}
+
+/*  .container {
+
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "jumbotron jumbotron jumbotron"
+  "navbar navbar navbar"
+  "content content content"
+  "skills portrait familiar"
+  ". contact .";
+}
+*/
