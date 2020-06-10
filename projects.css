@@ -79,26 +79,8 @@
   text-align: center;
 }
 
-.weather img {
+.foliopic img {
   padding-top: 20px;
   border-radius: 25%;
-  margin: 10px;
-}
-
-.wikipedia img {
-  padding-top: 20px;
-  border-radius: 25%;
-  margin: 10px;
-}
-
-.twitch img {
- padding-top: 20px;
- border-radius:25%;
- margin: 10px;
-}
-
-.tribute img {
-  padding-top: 20px;
-  border-radius:25%;
   margin: 10px;
 }
